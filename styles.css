@@ -1,0 +1,265 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-height: 50px; /* Adjust as needed */
+}
+
+.company-name {
+    color: white; /* Adjust text color for better visibility */
+}
+
+/* Navigation Styles */
+nav {
+	background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.nav-link {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* About Us Section Styles */
+.about-us {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Customer Reviews Section Styles */
+.customer-reviews {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Shop Now Button Styles */
+.shop-now-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Product List Section Styles */
+.product-list {
+	background-color: #ddd;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Product Styling */
+.product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 50%; /* Ensure two products per line with spacing */
+    text-align: center;
+}
+/* Product Container Styles */
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.product:hover {
+    background-color: #ffffff;
+}
+
+/* Button Styling */
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.product button:hover {
+    background-color: #45A049;
+}
+
+.cart {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cart-item .cart-item-name {
+    margin-right: 40px; /* Adjust as needed */
+}
+
+.cart-item .cart-item-price {
+    margin-right: 20px;
+}
+
+.cart-item  button {
+    margin-left: 20px;
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cart-item button:hover {
+    background-color: #ff0000;
+}
+
+
+/* Contact Information Section Styles */
+.contact-info {
+	background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Contact Method Styles */
+.contact-method {
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+/* Social Media Links Styles */
+
+.contact-method ul li a {
+    color: light blue; 
+}
+/* Social Media Links Hover Effect */
+.contact-method ul li a:hover {
+    color: #007BFF; 
+}
+
+/* Login Form Section Styles */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Form Field Styles */
+form label {
+    display: block;
+    margin: 10px;
+}
+
+form input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Login Button Styles */
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    opacity: .5
+}
+
+.login-btn:hover {
+    background-color: #45A049;
+    opacity: 1.0
+}
+
+/* Signup Link Styles */
+.signup-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Message Box Styles */
+.message-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px auto;
+    color: black;
+    border: 2px solid black;
+    width: calc(100% - 40px); /* Subtracting the left and right padding */
+    box-sizing: border-box; /* To include padding and border in the element's total width and height */
+}
+
+
+
